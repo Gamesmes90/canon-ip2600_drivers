@@ -25,5 +25,11 @@ package() {
     rpmextract.sh cnijfilter-common-${pkgver}-${pkgrel}.i386.rpm
     rpmextract.sh ${pkgname}-${pkgver}-${pkgrel}.i386.rpm
 
+    mv usr/local/bin usr/bin
+    mv usr/local/share/* usr/share/
+    rm -r usr/local
+
+    mkdir -p usr/share/licenses/${pkgname}
+
     mv usr ${pkgdir}/
 }

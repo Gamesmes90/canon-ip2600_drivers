@@ -1,0 +1,2 @@
+sudo pacman -S lib32-libtiff lib32-libtiff4 libtiff lib32-gtk2 
+yay -S  lib32-pangox-compat
