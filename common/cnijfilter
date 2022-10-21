@@ -1,0 +1,14 @@
+1: make tar.gz of https://github.com/endlessm/cnijfilter-common
+2: rename cnijfilter-common to cnijfilter-source-X.XX-Y (example: cnijfilter-source-4.10-1)
+3: rename latest cnijfilter-X.XX folder to cnijfilter
+4: add canonip2600.ppd to archive in ppd folder
+5: patch with patch files
+6: cry because the libraries required are proprietary (thanks canon)
+
+https://aur.archlinux.org/packages/cnijfilter-ip2700series
+https://aur.archlinux.org/packages/cnijfilter-common
+https://github.com/endlessm/cnijfilter-common
+https://forums.linuxmint.com/viewtopic.php?t=138342
+https://wiki.ubuntu-it.org/Hardware/StampantiScanner/Canon
+https://wiki.freebsd.org/JoergWunsch/CanonIp3600
+https://www.canon-europe.com/support/consumer_products/products/printers/inkjet/pixma_ip_series/pixma_ip2600.html?type=drivers&language=en&os=linux%20(32-bit)
