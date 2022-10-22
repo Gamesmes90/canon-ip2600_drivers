@@ -28,4 +28,7 @@ https://launchpad.net/ubuntu/precise/i386/libtiff4/3.9.5-2ubuntu1
 6: install libtiff4 dep from provided deb file
 http://security.ubuntu.com/ubuntu/pool/main/g/glibc/multiarch-support_2.27-3ubuntu1.5_i386.deb
 7: install cnijfilter-ip2600series
-8: hopefully it works
+8: hopefully it works (IT WORKS!)
+Note: you may need to change the ownership of /usr/lib/cups/filter/pstocanonij
+
+sudo chown root:root /usr/lib/cups/filter/pstocanonij
