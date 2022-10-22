@@ -14,6 +14,7 @@ https://wiki.freebsd.org/JoergWunsch/CanonIp3600
 https://www.canon-europe.com/support/consumer_products/products/printers/inkjet/pixma_ip_series/pixma_ip2600.html?type=drivers&language=en&os=linux%20(32-bit)
 
 Installation from compiled driver (Debian based)
+0: Install qemu-user-static
 1: enable i386 repos
 deb [ arch=i386 ] http://de.archive.ubuntu.com/ubuntu jammy-updates main
 deb [ arch=i386 ] http://de.archive.ubuntu.com/ubuntu jammy main
