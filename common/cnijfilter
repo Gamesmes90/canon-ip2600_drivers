@@ -30,5 +30,5 @@ http://security.ubuntu.com/ubuntu/pool/main/g/glibc/multiarch-support_2.27-3ubun
 7: install cnijfilter-ip2600series
 8: hopefully it works (IT WORKS!)
 Note: you may need to change the ownership of /usr/lib/cups/filter/pstocanonij
-
+https://forum.manjaro.org/t/insecure-permissions-error-printing-to-ricoh/27268
 sudo chown root:root /usr/lib/cups/filter/pstocanonij
