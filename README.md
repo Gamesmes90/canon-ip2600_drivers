@@ -1,8 +1,10 @@
 # Canon iP2600 drivers for Linux
 Guide to install iP2600 drivers on linux
 
-This guide will discuss debian based installation only. It should be possible on arch as well if you manage to add the libraries those binaries complain about.
 The objective of this guide is to get an iP2600 printer to work on linux so it can be put on the LAN with CUPS.
+
+This guide will discuss debian based installation only. It should be possible on arch as well if you manage to add the libraries those binaries complain about.
+
 
 ## Patching (You can skip if you download the ones provided in the debian folder)
 Because this driver is very old (Release date: 08 July 2009) the package **libcupsys2** is not available anywhere anymore, but the important bit is the lib file ```libcups.so.2``` which is available in the package **libcups2**. It is necessary to change this dependency so apt can find the library this driver is looking for. 
