@@ -1,0 +1,25 @@
+http://ftp.de.debian.org/debian/pool/main/a/at-spi2-core/libatk1.0-0_2.46.0-3_i386.deb
+http://ftp.de.debian.org/debian/pool/main/g/glibc/libc6_2.35-3_i386.deb
+http://security.debian.org/debian-security/pool/updates/main/c/cairo/libcairo2_1.14.8-1+deb9u1_i386.deb
+http://launchpadlibrarian.net/50695481/libcupsys2_1.3.9-17ubuntu3.9_all.deb
+http://ftp.de.debian.org/debian/pool/main/f/fontconfig/libfontconfig1_2.13.1-4.5_i386.deb
+http://ftp.de.debian.org/debian/pool/main/g/glib2.0/libglib2.0-0_2.74.0-3_i386.deb
+http://de.archive.ubuntu.com/ubuntu/pool/main/g/gtk+2.0/libgtk2.0-0_2.24.32-1ubuntu1_i386.deb
+http://launchpadlibrarian.net/10171275/libpng12-0_1.2.8rel-5.1ubuntu0.3_i386.deb
+http://ftp.de.debian.org/debian/pool/main/p/popt/libpopt0_1.19+dfsg-1_i386.deb
+http://launchpadlibrarian.net/100012879/libtiff4_3.9.5-2ubuntu1_i386.deb
+http://launchpadlibrarian.net/10171277/libpng12-0-udeb_1.2.8rel-5.1ubuntu0.3_i386.udeb
+http://ftp.de.debian.org/debian/pool/main/libx/libx11/libx11-6_1.8.1-2_i386.deb
+http://ftp.de.debian.org/debian/pool/main/libx/libxcursor/libxcursor1_1.2.1-1_i386.deb
+http://ftp.de.debian.org/debian/pool/main/libx/libxext/libxext6_1.3.4-1+b1_i386.deb
+http://ftp.de.debian.org/debian/pool/main/libx/libxfixes/libxfixes3_6.0.0-2_i386.deb
+http://ftp.de.debian.org/debian/pool/main/libx/libxi/libxi6_1.8-1+b1_i386.deb
+https://launchpad.net/ubuntu/precise/i386/libtiff4/3.9.5-2ubuntu1
+http://ftp.de.debian.org/debian/pool/main/libx/libxinerama/libxinerama1_1.1.4-3_i386.deb
+http://security.debian.org/debian-security/pool/updates/main/libx/libxml2/libxml2_2.9.4+dfsg1-2.2+deb9u7_i386.deb
+http://de.archive.ubuntu.com/ubuntu/pool/main/libx/libxrandr/libxrandr2_1.5.1-1_i386.deb
+http://ftp.de.debian.org/debian/pool/main/libx/libxrender/libxrender1_0.9.10-1.1_i386.deb
+
+
+libtiff4 dep
+http://security.ubuntu.com/ubuntu/pool/main/g/glibc/multiarch-support_2.27-3ubuntu1.5_i386.deb
