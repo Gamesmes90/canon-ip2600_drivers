@@ -12,3 +12,20 @@ https://forums.linuxmint.com/viewtopic.php?t=138342
 https://wiki.ubuntu-it.org/Hardware/StampantiScanner/Canon
 https://wiki.freebsd.org/JoergWunsch/CanonIp3600
 https://www.canon-europe.com/support/consumer_products/products/printers/inkjet/pixma_ip_series/pixma_ip2600.html?type=drivers&language=en&os=linux%20(32-bit)
+
+Installation from compiled driver (Debian based)
+1: enable i386 repos
+deb [ arch=i386 ] http://de.archive.ubuntu.com/ubuntu jammy-updates main
+deb [ arch=i386 ] http://de.archive.ubuntu.com/ubuntu jammy main
+deb [ arch=i386 ] http://de.archive.ubuntu.com/ubuntu jammy main universe # for libpango1
+2: change libcupsys2 dependency to libcups2 containing the same library (do this to both deb files)
+https://forums.linuxmint.com/viewtopic.php?t=35136
+3: install cnijfilter-common
+4: install libpng12 from provided deb file
+http://launchpadlibrarian.net/10171277/libpng12-0-udeb_1.2.8rel-5.1ubuntu0.3_i386.udeb
+5: install libtiff4 from provided deb file
+https://launchpad.net/ubuntu/precise/i386/libtiff4/3.9.5-2ubuntu1
+6: install libtiff4 dep from provided deb file
+http://security.ubuntu.com/ubuntu/pool/main/g/glibc/multiarch-support_2.27-3ubuntu1.5_i386.deb
+7: install cnijfilter-ip2600series
+8: hopefully it works
